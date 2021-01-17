@@ -1,0 +1,85 @@
+:root {
+  --primary: #2ecc71;
+  --dark: #27ae60;
+  --accent: hsl(210, 29%, 24%);
+  --text: #333;
+  --divider: #ecf0f1;
+  --font-family: "Muli", sans-serif;
+  --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+      0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+:root {
+  --primary: #2ecc71;
+  --dark: #27ae60;
+  --accent: hsl(210, 29%, 24%);
+  --text: #333;
+  --divider: #ecf0f1;
+  --font-family: "Muli", sans-serif;
+  --box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+      0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--text);
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  grid: "header" auto "content" 1fr "footer" auto / auto;
+}
+
+header {
+  grid-area: header;
+  background: green;
+  padding: 20px;
+}
+
+header {
+  background-color: green;
+}
+/*# sourceMappingURL=index.css.map */
